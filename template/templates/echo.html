@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for k, v in param.items %}
+    {% if v != "" %}
+        {% if method == "get" %}
+            <p>get {{k}}: {{v}} </p>
+        {% else %}
+            <p>post {{k}}: {{v}} </p>
+        {% endif %}
+    {% endif %}
+{%endfor%}
+statement is {{head}}
+
+</body>
+</html>

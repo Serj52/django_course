@@ -1,0 +1,11 @@
+certifi==2020.12.5
+chardet==4.0.0
+Django==1.11.17
+et-xmlfile==1.0.1
+idna==2.10
+jdcal==1.4.1
+openpyexcel==2.5.14
+openpyxl==3.0.6
+pytz==2020.5
+requests==2.25.1
+urllib3==1.26.4
